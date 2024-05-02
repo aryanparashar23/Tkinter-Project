@@ -1,4 +1,5 @@
 Canteen Complaint System
+
 complaint registration system is built using Tkinter, a GUI toolkit for Python. The system allows students to register complaints related to the canteen services according to their respective departments.
 
 Features
