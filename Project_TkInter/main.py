@@ -3,7 +3,7 @@ from tkinter import messagebox
 import tkinter.font as font
 import mysql.connector as m
 
-mydatabase = m.connect(host="localhost", user="root", password="monti1262", database="complain")
+mydatabase = m.connect(host="localhost", user="root", password="aryan", database="complain")
 insert_query = "INSERT INTO cms(name, comp, dept_name, feedback) VALUES (%s, %s, %s, %s)"
 status_query = "SELECT DISTINCT status FROM cms WHERE name = %s"
 status_by_id_query = "SELECT status FROM cms WHERE id = %s"
